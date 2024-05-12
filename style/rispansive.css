@@ -1,0 +1,158 @@
+@media (min-width : 576px){
+
+    .nav-link{
+        padding: 0.8rem 1.6rem;
+        font-size: 1.6rem;
+    }
+
+    
+}
+
+@media (min-width : 768px){
+    
+    .menu{
+        display: flex;
+    }
+    .menu-mobail{
+        display: none;
+    }
+    .order-werraper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .order-img{
+        order: 2;
+    }
+    .order-content {
+        order: 1;
+    }
+    .order-content__title{
+        margin: 0;
+        text-align: left;
+
+    }
+    .order-content__caption{
+        margin: 1.2rem 0;
+        text-align: left;
+    }
+    .order-content-price{
+        justify-content: flex-end;
+    }
+    .order-content-links{
+        flex-direction: row-reverse;
+        gap: 4rem;
+        justify-content: flex-end;
+    }
+    .order-time{
+        
+        top: 0;
+        bottom: auto;
+        left: -12rem;
+    }
+    .mobail{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+    .order-img {
+        margin-top: 0;
+    }
+    .food__title::after{
+        top: 65%;
+    }
+    .Sale__title::after{
+        top: 65%;
+    }
+    .food-werraper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Sale-werraper{
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+    .social{
+        border-radius: 0 500px 500px 0;
+        
+    }
+    .social-werraper{
+        align-items: flex-start;
+    }
+    .social-content {
+        text-align: start;
+    }
+    .social-content-logo{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .social-content__caption{
+        max-width: 60rem;
+    }
+    .social-img{
+        width: 50%;
+    }
+    
+    .Contact-food-form{
+        gap: 20rem;
+    }
+        
+}
+@media (min-width : 992px){
+    .nav-left{
+        gap: 8rem;
+    }
+    .menu{
+        gap: 5rem;
+    }
+    .food-werraper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .Sale-werraper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .social-werraper{
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .social-content{
+        margin-top: 0;
+    }
+    .social-img{
+        width: 35%;
+    }
+    .social{
+        width: 90%;
+    }
+    .social-content__caption{
+        max-width: 50rem;
+    }
+    .footer-social {
+        order: 0;
+    }
+    .Contact-food__title{
+        font-size: 4.8rem;
+    }
+    
+    
+}
+@media (min-width : 1200px){
+    .Sale-type__line {
+        width: 76%;
+    }
+     
+}
+@media (min-width : 1400px ){
+    
+}
+
+
+    
+    
+
+
+        
+
+
+
+
+        
